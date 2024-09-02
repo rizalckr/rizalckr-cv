@@ -5,9 +5,10 @@ import twitterIcon from '../../assets/twitter-light.svg';
 import githubIcon from '../../assets/github-light.svg';
 import linkedinIcon from '../../assets/linkedin-light.svg';
 import CV from '../../assets/cv.pdf';
+// import { useTheme } from '../../common/ThemeContext';
 function Hero() {
   return (
-      <section id='hero' className={styles.container}>
+      <section id="hero" className={styles.container}>
         <div className={styles.colorModeContainer}>
             <img className={styles.hero} 
             src={heroImg} 
