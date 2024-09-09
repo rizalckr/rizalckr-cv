@@ -14,16 +14,13 @@ function Hero() {
             src={heroImg} 
             alt="Profile Picture Muh Amirul Rizal" 
             />
-            <img className={styles.colorMode} 
-            src={themeIcon}
-            alt='Color Mode'
-            />
+
         </div>
         <div className={styles.info}>
           <h1>
-            Muh<br />
-            Amirul<br />
-            Rizal
+            This is<br />
+            My Name<br />
+            Name
           </h1>
           <h2>
             Frontend Developer</h2>
