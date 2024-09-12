@@ -5,6 +5,7 @@ import twitterIcon from '../../assets/twitter-light.svg';
 import githubIcon from '../../assets/github-light.svg';
 import linkedinIcon from '../../assets/linkedin-light.svg';
 import CV from '../../assets/cv.pdf';
+import DarkMode from '../../components/DarkMode';
 // import { useTheme } from '../../common/ThemeContext';
 function Hero() {
   return (
@@ -14,7 +15,7 @@ function Hero() {
             src={heroImg} 
             alt="Profile Picture Muh Amirul Rizal" 
             />
-
+            <DarkMode />
         </div>
         <div className={styles.info}>
           <h1>
