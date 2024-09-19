@@ -11,7 +11,7 @@ function Hero() {
   return (
       <section id="hero" className={styles.container}>
         <div className={styles.colorModeContainer}>
-            <img className={styles.hero} 
+            <img
             src={heroImg} 
             alt="Profile Picture Muh Amirul Rizal" 
             />
@@ -41,7 +41,7 @@ function Hero() {
               our text.
             </p>
             <a href={CV} target="_blank">
-              <button className='hover'>
+              <button className={styles.hover}>
                 Resume
               </button>
             </a>

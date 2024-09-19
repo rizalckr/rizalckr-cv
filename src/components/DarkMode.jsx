@@ -1,5 +1,5 @@
 import React from "react";
-import './DarkMode.css'
+import './DarkMode.css';
 
 export default function DarkMode() {
 
@@ -13,12 +13,14 @@ export default function DarkMode() {
 
     return(
         <>
-        <div className="wrapper">
-            <label className="switch">
-                <input type="checkbox" onChange={SwitchTheme}/>
-                <span className="slider round"></span>
-            </label>
-        </div>
+<div className="container">
+<label className="ui-switch">
+  <input type="checkbox" onChange={SwitchTheme} />
+  <div className="slider">
+    <div className="circle"></div>
+  </div>
+</label>
+</div>
         </>
     )
 } 
