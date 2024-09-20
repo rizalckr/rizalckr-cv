@@ -13,7 +13,9 @@
     --text-color: white;
 }
 
-.container {
+
+
+section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,18 +25,14 @@
     min-height: 500px;
 }
 
-.hero {
-    display: flex;
-}
-
 .hover {
     cursor: pointer;
 }
 
 span {
     display: flex;
-    gap: 25px;
     justify-content: center;
+    gap: 25px;
     a {
         margin: 0;
         img {

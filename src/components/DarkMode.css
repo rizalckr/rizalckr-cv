@@ -1,13 +1,6 @@
 /* From Uiverse.io by Galahhad */ 
 /* switch settings 👇 */
 
-.container {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-
 .ui-switch {
   /* switch */
   --switch-bg: rgb(135, 150, 165);

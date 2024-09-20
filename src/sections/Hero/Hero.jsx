@@ -9,15 +9,15 @@ import DarkMode from '../../components/DarkMode';
 // import { useTheme } from '../../common/ThemeContext';
 function Hero() {
   return (
-      <section id="hero" className={styles.container}>
-        <div className={styles.colorModeContainer}>
+      <section id="hero" className='items-center'>
+        <div>
             <img
             src={heroImg} 
             alt="Profile Picture Muh Amirul Rizal" 
             />
             <DarkMode />
         </div>
-        <div className={styles.info}>
+        <div >
           <h1>
             This is<br />
             My Name<br />
