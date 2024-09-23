@@ -22,7 +22,6 @@ section {
     gap: 20px;
     text-align: center;
     height: 100vh;
-    min-height: 500px;
 }
 
 .hover {
