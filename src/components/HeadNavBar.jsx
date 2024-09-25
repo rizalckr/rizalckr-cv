@@ -1,12 +1,13 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import DarkMode from './DarkMode'
+import Hero from '../sections/Hero/Hero'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'Projects', href: '#', current: false },
+  { name: 'Home', href: 'Home', current: true },
+  { name: 'Projects', href: '', current: false },
   { name: 'Skills', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'Contact', href: 'Contact.jsx', current: false },
 ]
 
 function classNames(...classes) {

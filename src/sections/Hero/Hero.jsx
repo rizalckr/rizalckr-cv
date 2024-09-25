@@ -1,4 +1,4 @@
-import styles from './HeroStyles.module.css';
+import styles from './Styles.module.css';
 import heroImg from '../../assets/hero-img.png';
 import themeIcon from '../../assets/sun.svg';
 import twitterIcon from '../../assets/twitter-light.svg';
