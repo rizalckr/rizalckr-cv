@@ -4,7 +4,7 @@ function Project () {
     return (
         <>
         <section>
-        <h1>Projects</h1>
+        <p className='text-5xl font-bold'>Projects</p>
         </section>
         </>
     )

@@ -1,9 +1,9 @@
 import './Styles.module.css';
-
+import { Link } from'react-scroll'
 function Contact () {
     return (
         <>
-            <section className="items-center">
+            <section name='contact' className="items-center">
                 <div>
                     <p className='text-5xl font-bold'>Contact</p>
                     <div>

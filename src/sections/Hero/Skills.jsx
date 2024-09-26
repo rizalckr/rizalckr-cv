@@ -1,7 +1,11 @@
+import './Styles.module.css'
+
 function Skills () {
     return (
         <>
-        <h1>Skills</h1>
+        <section name='skills'>
+        <p className='text-5xl font-bold'>Skills</p>
+        </section>
         </>
     )
 }
