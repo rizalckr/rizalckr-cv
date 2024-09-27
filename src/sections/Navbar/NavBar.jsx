@@ -2,6 +2,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuIt
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import DarkMode from '../../components/DarkMode'
 import { Link } from 'react-scroll'
+import './Styles.Navbar.css'
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
@@ -38,16 +39,16 @@ export default function HeadNavBar() {
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
-                <Link className='bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white'
+                <Link to='home' activeClass="active" spy={true} offset={-100} smooth={true} duration={500} className='navbarstyle cursor-pointer text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white'
                 >Home
                 </Link>
-                <Link className='bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white'
+                <Link to='projects' activeClass="active" offset={-100} spy={true} smooth={true} duration={500} className='navbarstyle cursor-pointer text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white'
                 >Projects
                 </Link>
-                <Link className='bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white'
+                <Link to='skills' activeClass="active" offset={-100} spy={true} smooth={true} duration={500} className='navbarstyle cursor-pointer text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white'
                 >Skills
                 </Link>
-                <Link to='contact' smooth={true} duration={500} className='bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white'
+                <Link to='contact' activeClass="active" offset={-100} spy={true} smooth={true} duration={500} className='navbarstyle cursor-pointer text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white'
                 >Contact
                 </Link>
               </div>

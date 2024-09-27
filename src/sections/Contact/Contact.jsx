@@ -1,4 +1,4 @@
-import './Styles.module.css';
+import './Styles.Contact.css';
 import { Link } from'react-scroll'
 function Contact () {
     return (

@@ -1,14 +1,14 @@
 import './App.css'
-import HeadNavBar from './sections/Hero/HeadNavBar'
+import NavBar from './sections/Navbar/NavBar'
 import Hero from './sections/Hero/Hero'
-import Project from './sections/Hero/Projects'
-import Skills from './sections/Hero/Skills'
-import Contact from './sections/Hero/Contact'
+import Project from './sections/Projects/Projects'
+import Skills from './sections/Skills/Skills'
+import Contact from './sections/Contact/Contact'
 
 function App() {
   return (
     <>
-    <HeadNavBar />
+    <NavBar />
     < Hero />
     <Project />
     <Skills />
