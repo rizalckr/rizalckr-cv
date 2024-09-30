@@ -7,14 +7,13 @@ import CV from '../../assets/cv.pdf';
 // import { useTheme } from '../../common/ThemeContext';
 function Hero() {
   return (
-      <section name="home">
-        <div>
-            <img
+      <section name="home" className='style-hero content-center mr-32'>
+        <div className='flex'>
+          <img className='img-hero mx-20'
             src={heroImg} 
             alt="Profile Picture Muh Amirul Rizal" 
             />
-        </div>
-        <div >
+        <div className='style-bio'>
           <h1>
             This is<br />
             My Name<br />
@@ -42,6 +41,7 @@ function Hero() {
                 Resume
               </button>
             </a>
+        </div>
         </div>
       </section>
   )

@@ -1,6 +1,7 @@
-section {
+.style-projects {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
-    margin-bottom: 200px;
+    height: 100dvh;
 }

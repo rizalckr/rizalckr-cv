@@ -39,7 +39,7 @@ export default function HeadNavBar() {
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
-                <Link to='home' activeClass="active" spy={true} offset={-100} smooth={true} duration={500} className='navbarstyle cursor-pointer text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white'
+                <Link to='home' activeClass="active" spy={true} offset={-500} smooth={true} duration={500} className='navbarstyle cursor-pointer text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white'
                 >Home
                 </Link>
                 <Link to='projects' activeClass="active" offset={-100} spy={true} smooth={true} duration={500} className='navbarstyle cursor-pointer text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-700 hover:text-white'

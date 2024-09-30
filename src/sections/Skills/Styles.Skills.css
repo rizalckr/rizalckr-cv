@@ -1,5 +1,21 @@
-section {
+.style-skills {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
+    height: 100dvh;
+}
+
+.border {
+    border-top: 1px solid black;
+    width: 20%;
+    margin: 0 auto;
+
+}
+
+.skills-grid {
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 10px ;
+    gap: 100px;
 }

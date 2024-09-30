@@ -1,9 +1,19 @@
+.style-hero {
+  justify-content: center;
+  display: flex;
+  margin-top: 250px;
+}
 
-section {
+.style-bio {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
     text-align: center;
+}
+
+.img-hero {
+  height: 400px;
 }
 
 span {
