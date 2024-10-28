@@ -1,0 +1,12 @@
+.border {
+    border-top: 1px solid black;
+    width: 15%;
+    margin: 20px auto;
+    max-width: 500px;
+    min-width: 100px;
+}
+
+[data-theme='dark'] .border {
+    border-top: 1px solid white;
+}
+

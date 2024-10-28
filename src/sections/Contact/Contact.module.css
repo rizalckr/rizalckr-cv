@@ -1,0 +1,8 @@
+[data-theme='dark'] textarea {
+    background-color: black;
+
+}
+
+[data-theme='dark'] input {
+    background-color: black;
+}

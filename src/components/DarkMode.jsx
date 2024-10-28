@@ -11,6 +11,15 @@ export default function DarkMode() {
         }
     }
 
+    const changeImage = (e) => {
+        if(e.target.checked) {
+            document.querySelector('img').setAttribute('data-theme', 'dark')
+        } else {
+            document.querySelector('img').setAttribute('data-theme', 'light')
+        }
+    }
+
+    
     return(
         <>
 <div className="container">
