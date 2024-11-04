@@ -2,7 +2,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel} from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import DarkMode from '../../components/DarkMode'
 import { Link } from 'react-scroll'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.svg'
 
 export default function HeadNavBar() {
   return (
